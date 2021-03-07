@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Oi Douglas", Toast.LENGTH_SHORT).show();
-                Button.setTextColor(Color.RED);
+                Button.setTextColor(Color.GREEN);
             }
         });
 

@@ -21,6 +21,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Olá!"
+            android:textColor="@color/colorPrimary"
             android:textSize="30sp" />
 
         <Button
@@ -28,6 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="?attr/dialogPreferredPadding"
-            android:text="Clicar" />
+            android:background="@color/colorPrimary"
+            android:text="Clicar"
+            android:textColor="@android:color/background_light" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
