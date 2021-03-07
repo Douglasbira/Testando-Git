@@ -2,6 +2,7 @@ package com.biradev.testandogit;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(MainActivity.this, "Oi Douglas", Toast.LENGTH_SHORT).show();
                 Button.setTextColor(Color.GREEN);
+                Intent intent = new Intent(MainActivity.this, MainTweActivity.class);
+                startActivity(intent);
             }
         });
 
